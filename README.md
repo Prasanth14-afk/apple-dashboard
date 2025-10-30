@@ -2,7 +2,7 @@
 
 A production-quality, three-page web application that visualizes Apple Inc. (AAPL) financials using local CSV files with a modern tech stack.
 
-## 🚀 Features
+##  Features
 
 ### Page 1 - Executive Overview
 - **6 KPI Cards** with 5-year sparklines and YoY changes:
@@ -34,7 +34,7 @@ A production-quality, three-page web application that visualizes Apple Inc. (AAP
 - **EPS Growth**: Year-over-year growth tracking
 - **Valuation Summary**: Latest metrics card
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework**: Next.js 16 (App Router) with React 18
 - **Language**: TypeScript
@@ -47,7 +47,7 @@ A production-quality, three-page web application that visualizes Apple Inc. (AAP
 - **Local Storage**: Dexie (IndexedDB)
 - **CSV Parsing**: PapaParser
 
-## 📦 Installation
+##  Installation
 
 1. **Navigate to the project directory**:
    ```bash
@@ -61,7 +61,7 @@ A production-quality, three-page web application that visualizes Apple Inc. (AAP
 
 3. **CSV Files**: Already copied to `public/data/` directory
 
-## 🎯 Running the Application
+##  Running the Application
 
 ### Development Mode
 ```bash
@@ -75,7 +75,7 @@ npm run build
 npm start
 ```
 
-## 📊 Data Sources
+##  Data Sources
 
 The application loads data from these CSV files in `/public/data/`:
 - `income_statement.csv` - Revenue, net income, EPS, operating income
@@ -84,7 +84,7 @@ The application loads data from these CSV files in `/public/data/`:
 - `financial_ratios.csv` - Liquidity ratios, profitability ratios, returns
 - `key_metrics.csv` - Market cap, valuation multiples, per-share metrics
 
-## 🔧 Key Features
+##  Key Features
 
 ### Data Processing
 - **Zod Validation**: All CSV data validated with strict schemas
@@ -109,7 +109,7 @@ The application loads data from these CSV files in `/public/data/`:
 - **Lazy Loading**: Charts rendered efficiently
 - **Optimized Bundle**: Tree-shaking and code splitting
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 apple-dashboard/
@@ -140,7 +140,7 @@ apple-dashboard/
 └── package.json
 ```
 
-## 🎨 Design System
+##  Design System
 
 ### Typography
 - Headings: Bold, Gray-900 (#1F1F1F)
@@ -159,7 +159,7 @@ apple-dashboard/
 - Focus indicators
 - Semantic HTML
 
-## 🚀 Deployment
+##  Deployment
 
 ### Vercel (Recommended)
 1. Push to GitHub
@@ -182,7 +182,7 @@ Deploy the `.next` directory to your hosting provider.
 - [ ] Custom chart configurations
 - [ ] More detailed drill-downs
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### CSV Loading Issues
 - Ensure CSV files are in `/public/data/`
@@ -199,11 +199,11 @@ Deploy the `.next` directory to your hosting provider.
 - Clear npm cache: `npm cache clean --force`
 - Reinstall dependencies
 
-## 📝 License
+##  License
 
 This project is for educational and demonstration purposes.
 
-## 👨‍💻 Author
+##  Author
 
 Built with modern web technologies following best practices for production applications.
 
